@@ -185,6 +185,21 @@ h1, h2{
         margin-left: 3%;
         
     }
+    footer .mylogo-footer{
+        background: none;
+    }
+    .opener{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .circle{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+
+    
 }
 .bg-containers{
     
@@ -227,11 +242,12 @@ button i:hover{
 }
 
 footer{
-    height: 350px;
+    height: 390px;
     width: 100%;
     border-top: 5px solid var(--accent-color);
     background-color: var(--main-color);
     overflow-x: hidden;
+    
     
 
 }
@@ -256,6 +272,7 @@ footer{
     background-color: var(--main-color);
     transition: 0.4s ease-in-out;
     z-index: 2;
+    
 }
 .opener:hover{
     border: 3px solid var(--accent-color);

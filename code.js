@@ -11,12 +11,12 @@ const menuOpener = document.querySelector('#menu-opener')
              opener.addEventListener('click', ()=>{
                  if(opened == false){
                      circles.forEach((circle, i) =>{
-                     circle.style.transform = `translate(-${i*280/circles.length}px) translate(-250px)`
+                     circle.style.transform = `translateX(-${i*280/circles.length}px) translate(-250px)`
                  })
                      opened = !opened
                  }else {
                      circles.forEach((circle, i) =>{
-                     circle.style.transform = ` translate(0px) `
+                     circle.style.transform = ` translateX(0px) `
                  })
                     
                  }    

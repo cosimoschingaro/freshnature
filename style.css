@@ -229,6 +229,7 @@ footer{
     width: 100%;
     border-top: 5px solid var(--accent-color);
     background-color: var(--main-color);
+    overflow-x: hidden;
     
 
 }

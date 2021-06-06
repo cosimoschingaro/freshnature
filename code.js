@@ -11,12 +11,12 @@ const menuOpener = document.querySelector('#menu-opener')
              opener.addEventListener('click', ()=>{
                  if(opened == false){
                      circles.forEach((circle, i) =>{
-                     circle.style.transform = `rotate(-${i*360/circles.length}deg) translate(100px) rotate(${i*360/circles.length}deg)`
+                     circle.style.transform = `translate(-${i*280/circles.length}px) translate(-250px)`
                  })
                      opened = !opened
                  }else {
                      circles.forEach((circle, i) =>{
-                     circle.style.transform = `rotate(-${i*360/circles.length}deg) translate(0px) rotate(${i*360/circles.length}deg)`
+                     circle.style.transform = ` translate(0px) `
                  })
                     
                  }    

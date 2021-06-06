@@ -11,7 +11,7 @@ const menuOpener = document.querySelector('#menu-opener')
              opener.addEventListener('click', ()=>{
                  if(opened == false){
                      circles.forEach((circle, i) =>{
-                     circle.style.transform = `translateX(-${i*280/circles.length}px) translate(-250px)`
+                     circle.style.transform = `translate(${i*100}px) translateX(100px) `
                  })
                      opened = !opened
                  }else {
